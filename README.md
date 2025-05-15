@@ -9,11 +9,7 @@ A real-time face tracking and captioning application built with React, TypeScrip
 ## Features
 
 - 🎯 Real-time face detection and landmark tracking
-- 🗣️ Speech-to-text captioning with multi-language support
-- 👥 Multi-face tracking with active speaker detection
-- 💬 Glass-like caption bubbles that follow faces
-- 📱 Responsive design with mobile support
-- 🎨 Beautiful minimalist UI with Tailwind CSS
+- 🗣️ Speech-to-text captioning 
 
 ## Technology Stack
 
@@ -68,21 +64,17 @@ src/
 
 3. **Speech Recognition**: The Web Speech API listens for speech input and converts it to text in real-time.
 
-4. **Active Speaker Detection**: The app analyzes mouth movements to determine which face is currently speaking.
-
-5. **Caption Rendering**: Glass-like caption bubbles are rendered above each detected face, with the active speaker's caption highlighted.
+4. **Caption Rendering**: Glass-like caption bubbles are rendered above each detected face, with the active speaker's caption highlighted.
 
 ## Features in Detail
 
 ### Face Tracking
-- Detects up to 4 faces simultaneously
 - Tracks 468 facial landmarks per face
 - Real-time mesh visualization
 - Smooth landmark tracking
 
 ### Speech Recognition
 - Real-time speech-to-text conversion
-- Support for multiple languages
 - Continuous recognition mode
 - Error handling and recovery
 
