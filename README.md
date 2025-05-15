@@ -2,6 +2,8 @@
 
 A real-time face tracking and captioning application built with React, TypeScript, and MediaPipe. This project demonstrates advanced facial landmark detection combined with speech-to-text capabilities to create an augmented reality captioning experience.
 
+[Live Demo](https://arcaption.netlify.app/)
+
 <img src="./public/media/demo1.gif" alt="Example" width="700" />
 
 ## Features
